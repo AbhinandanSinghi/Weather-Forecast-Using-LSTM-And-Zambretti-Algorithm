@@ -1,1 +1,3 @@
 # Weather-Forecast-Using-LSTM-And-Zambretti-Algorithm
+
+We used the collected data to train the algorithm for weather prediction. We used LSTM algorithm which is a type of RNN with more memory capabilities such that the previous data can be used to predict the outcome of the future occurrences. We applied this algorithm individually for the temperature, humidity, pressure values. From the predicted temperature and pressure, we also calculated the sea level pressure based on the altitude of the given surface, as in this case Vellore and its altitude 213. We used ZAMBRETTI algorithm to predict the weather based on the predicted values of temperature, pressure and humidity.
